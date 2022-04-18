@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: black;
+}
+
+.canvas1 {
+  max-width: 100%;
+  max-height: 100%;
+  position: absolute;
+  background-color: black;
+}
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 40px;
+  line-height: 50px;
+  border-top: white solid 3px;
+}
+.text::before {
+  content: "40 Today";
+  position: absolute;
+  bottom: -70px;
+  font-size: 30px;
+  left: 35%;
+  width: 100%;
+  
+}
